@@ -1,3 +1,8 @@
+/**
+ * Based on the works of prodigal_1 https://old.reddit.com/r/UnearthedArcana/comments/pfmx85/rules_for_rest_in_the_wild_20/
+ * Requires the tables "Full Rest Benefits" and "Botched Rest Results"
+ */
+
 async function callback(html) {
   ChatMessage.create({
     user: game.user._id,
